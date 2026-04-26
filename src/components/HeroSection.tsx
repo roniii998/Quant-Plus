@@ -285,7 +285,7 @@ export default function HeroSection() {
       />
 
       {/* ── STICKY CONTAINER ── */}
-      <div className="relative h-screen flex flex-col items-center overflow-visible pt-20 pb-8">
+      <div className="relative h-full flex flex-col items-center overflow-visible pt-20 pb-8">
 
         {/* ── HEADING LAYER ── */}
         <motion.div
