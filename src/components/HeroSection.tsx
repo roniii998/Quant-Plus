@@ -111,7 +111,7 @@ function DashboardMockup() {
         }} />
 
         {/* Scan line effect */}
-        <div className="absolute inset-0 overflow-hidden rounded-lg pointer-events-none z-10">
+        <div className="absolute inset-0 overflow-visible rounded-lg pointer-events-none z-10">
           <div className="w-full h-px opacity-[0.04]" style={{
             background: 'linear-gradient(90deg, transparent, #3B7BF6, transparent)',
             animation: 'scan-line 8s linear infinite',
