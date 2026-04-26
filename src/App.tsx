@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="min-h-screen bg-bg-primary">
       <Navigation />
-      <div className="relative z-10">
+      <div className="relative z-0">
         <HeroSection />
       </div>
-      <div className="relative z-0 pt-12">
+      <div className="relative z-30 pt-12">
         <LiveTicker />
       </div>
       <div className="relative z-0">
