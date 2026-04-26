@@ -17,7 +17,7 @@ function App() {
       <div className="relative z-10">
         <HeroSection />
       </div>
-      <div className="relative z-20">
+      <div className="relative z-0 pt-12">
         <LiveTicker />
       </div>
       <div className="relative z-0">

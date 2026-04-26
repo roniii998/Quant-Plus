@@ -40,7 +40,7 @@ export default function LiveTicker() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 0.8 }}
-      className="w-full border-t border-b border-border-subtle bg-bg-secondary overflow-hidden"
+      className="w-full border-t border-b border-border-subtle bg-bg-secondary overflow-hidden mt-16"
     >
       <div className="flex items-center">
         <div className="flex-shrink-0 px-4 flex items-center gap-2 border-r border-border-subtle bg-bg-tertiary">
