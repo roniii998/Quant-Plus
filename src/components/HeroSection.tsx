@@ -111,7 +111,7 @@ function DashboardMockup() {
         }} />
 
         {/* Scan line effect */}
-        <div className="absolute inset-0 overflow-visible rounded-lg pointer-events-none z-10">
+        <div className="absolute inset-0 overflow-hidden rounded-lg pointer-events-none z-10">
           <div className="w-full h-px opacity-[0.04]" style={{
             background: 'linear-gradient(90deg, transparent, #3B7BF6, transparent)',
             animation: 'scan-line 8s linear infinite',
@@ -285,7 +285,7 @@ export default function HeroSection() {
       />
 
       {/* ── STICKY CONTAINER ── */}
-      <div className="relative h-full flex flex-col items-center overflow-visible pt-20 pb-8">
+      <div className="sticky top-0 h-screen flex flex-col items-center overflow-visible pt-20 pb-8">
 
         {/* ── HEADING LAYER ── */}
         <motion.div
